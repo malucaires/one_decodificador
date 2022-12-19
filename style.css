@@ -1,0 +1,12 @@
+body {
+    background: #E5E5E5;
+}
+
+.formulario-texto {
+    display: inline-block;
+}
+
+.resultado-texto {
+    display: inline-block;
+    background: #FFFFFF;
+}
