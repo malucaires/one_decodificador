@@ -4,9 +4,34 @@ body {
 
 .formulario-texto {
     display: inline-block;
+    width: 65%;
 }
 
+.apenas-letras {
+    color: #808080;
+    font-size: 16px;
+}
 .resultado-texto {
     display: inline-block;
     background: #FFFFFF;
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.imagem-nao-encontrado {
+    margin: 10% auto;
+}
+
+#botaoCriptografia, #botaoDescriptografia {
+    background: #0A3871;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.nenhuma-mensagem {
+    font-weight: bold;
+    font-size: 22px;
 }

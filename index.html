@@ -3,27 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <title>Decodificador</title>
-        <link rel="stylesheet" href="reset.css">
+       
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-
+            <img src="img/logo.png" alt="logo">
         </header>
 
         <main>
             <div class="formulario-texto">
                 <label for="texto"></label>
-                    <textarea cols="70" rows="10" id="texto" class="input-padrao" required placeholder="Digite seu texto"></textarea>
-                    <p>Apenas letras minúsculas e sem acento.</p>
-                    <input type="submit" value="Criptografar" class="enviar">
-                    <input type="submit" value="Descriptografar" class="enviar">
+                <textarea cols="70" rows="10" id="texto" class="input-padrao" required placeholder="Digite seu texto"></textarea>
+                <p class="apenas-letras">ℹ Apenas letras minúsculas e sem acento.</p>
+                <button id="botaoCriptografia">Criptografar</button>
+                
+                <button id="botaoDescriptografia">Descriptografar</button>
+               
             </div>
 
             <div class="resultado-texto">
-                <img src="img/nao-encontrado.svg" alt="nenhuma mensagem encontrada">
-                <p>Nenhuma mensagem encontrada.</p>
-                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <img class="imagem-nao-encontrado" src="img/nao-encontrado.svg" alt="nenhuma mensagem encontrada">
+                <p class="nenhuma-mensagem">Nenhuma mensagem encontrada.</p>
+                <p class="digite-texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
             </div>
 
         </main>
